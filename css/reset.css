@@ -19,6 +19,10 @@ input {
     outline: none;
 }
 
+ul li {
+    list-style: none;
+}
+
 /* img {
     display: block;
     width: 100%;
