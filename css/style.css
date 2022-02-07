@@ -93,6 +93,9 @@ body {
     padding: 200px 0;
     background: #2f303a;
     text-align: center;
+    width: 1200px;
+    border: 1px solid red;
+    margin: 0 auto;
 }
 
 .hero-title {
@@ -132,4 +135,130 @@ body {
 .advantages-item {
     flex-basis: calc(100% / 4 - 30px);
     margin-right: 30px;
+}
+
+.advantages-item-benefits {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+
+.advantages-item-benefits-legend {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+}
+.our-skills {
+    font-family: Roboto;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+
+.our-team {
+    font-family: Roboto;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+
+.our-team-surname {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+
+.our-team-professions {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+}
+
+.logo-color-white {
+    color: var(--white-color);
+}
+
+.map-address {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+    font-style: normal;
+}
+
+.contacts-link-footer {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts-link-footer:focus,
+.contacts-link-footer:hover {
+    color: #2196f3;
+}
+
+.container-footer {
+    background: #2f303a;
+    width: 1200px;
+    padding: 0 15px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+.our-projects {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: calc(36 / 18);
+    letter-spacing: 0.06em;
+    color: var(--main-color);
+}
+.our-projects-name {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+}
+
+.button-portfolio {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    background: #f5f4fa;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+    background: #2196f3;
+    color: #fff;
 }
